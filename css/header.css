@@ -1,0 +1,33 @@
+/* header.css */
+
+/*header*/
+/*headerInner*/
+/*탑메뉴*/
+dl.lnb{float:right;}
+.lnb dd{float:left;}
+.lnb dd a{display: block; width:77px; height:24px; padding-top:5px; border-left:1px solid #c2c2c2; text-align:center; text-decoration:none; color:#32312f; font-size:12px;}
+.lnb dd a.pink{background: #e6002a; color:#fff;}
+.lnb dd a.gray{background: #999; color:#fff;}
+.lnb dd a:hover{background: #e1002a; color:#fff;}
+.lnb dd a.gray:hover{background: #888; color:#fff;}
+
+/*로고*/
+h1.h_logo{clear:both; float:left; margin-right:48px; margin-top:10px;}
+
+/*주메뉴*/
+ul.gnb{float: left; margin-top:40px;}
+.gnb > li{float:left; padding:0 37px; border-right:1px solid #c2c2c2; margin-bottom:21px; }
+.gnb li.last{border-right: none;}
+.gnb > li> ul{display: none; position: absolute; top:83px; left:0; width:930px; height:273px; padding-top:38px; background: #fbfbfb;}
+.gnb> li> ul> li{float:left; margin-left: 30px;}
+.gnb> li> ul> li > a{display: block; width:150px; border-bottom:1px solid #999; margin-bottom:8px; font-size:16px; font-weight:bold;}
+.gnb li ul li ul li{margin-bottom: 13px;}
+.gnb li ul li ul li a:focus{color:#e1002a}
+.gnb li ul li.intro{margin-left: 30px; margin-right:20px;}
+.gnb li ul li.intro span{display: block; width:150px; border-bottom:1px solid #e1002a; margin-bottom:8px; font-weight:bold; font-size:16px;}
+.gnb li ul li.intro ul li{width:150px; height: 116px;}
+.gnb li ul li.intro li.sub01_01{background: url(../images/img_introduction.png) no-repeat 0 100%;}
+.gnb li ul li.intro li.sub02_01{background: url(../images/img_industry.png) no-repeat 0 100%;}
+.gnb li ul li.last{margin-top:30px;}
+.gnb ul ul > li > a:hover{color:#e0002a;}
+.headerWrap{transition:height 0.1s linear 0s;}

@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<title> 1:1상담신청 | SK주식회사 C&amp;C </title>
+<link rel="stylesheet" type="text/css" href="css/join.css"/>
+<script type="text/javascript" src="js/sub.js"></script>
+</head>
+<body>
+<!--skipNavi-->
+<div id="skipNavi">
+    <a href="#container">본문 바로가기</a>
+    <a href="#gnb">주메뉴 바로가기</a>
+</div>
+<!--//skipNavi-->
+
+<!--wrap-->
+<div id="wrap">
+    <!--header-->
+    <? include "header.html"; ?>
+    <!--//header-->
+    <hr/>
+    
+    <!--sta-->
+    <div class="sta">
+        <div class="staInner">
+            <h2>고객센터</h2>
+        </div>
+    </div>
+    <!--//sta-->
+    <!--container-->
+    <div id="sub_container">
+        <!--snb-->
+        <ul class="snb">
+        <li><a href="#"><strong>1:1 상담신청</strong></a></li>
+        <li><a href="#">퇴직자 증명서 신청</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">찾아오시는 </a></li>
+        <li><a href="#">사이트맵</a></li>
+        </ul>
+        <!--//snb-->
+        <!--content-->
+        <div id="content">
+           <p class="path">
+            <a href="index.html" title="홈페이지로 바로가기">HOME</a> &gt;
+            <a href="#">고객센터</a> &gt;
+            <a href="#">1:1 상담신청</a>
+           </p>
+            <h2>1:1 상담신청</h2>
+            <form action="/" method="post">
+                <fieldset class="pData">
+                    <legend class="blind">상담신청</legend>
+                    <h3>상담신청</h3>
+                    <table summary="문의사업장, 이름, 연락처, 이메일 입력.">
+                    <caption class="blind">상담신청 인적사항 입력</caption>
+                    <tbody>
+                    <tr class="top">
+                    <th scope="row">
+                        <label for="catagory"><img src="images/bul_star_red.png" alt="필수입력"/> 문의사업장</label>
+                    </th>
+                    <td>
+                        <select name="catagory" id="catagory">
+                            <option value="01">인공지능</option>
+                            <option value="02">클라우드</option>
+                            <option value="03">스마트팩토리</option>
+                            <option value="04">빅데이터</option>
+                            <option value="05">용합물류</option>
+                            <option value="06">BizRoad</option>
+                            <option value="07">mTworks</option>
+                            <option value="08">DT Poc</option>
+                            <option value="09">기타</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">
+                        <label for="name"><img src="images/bul_star_red.png" alt="필수입력"/> 이름</label>
+                    </th>
+                    <td>
+                        <input type="text" id="name"/>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">
+                        <label for="cell"><img src="images/bul_star_red.png" alt="필수입력"/> 연락처</label>
+                    </th>
+                    <td class="call">
+                        <input type="text" id="cell"/> - <input type="text" maxlength="4" title="가운데 전화번호"/> - <input type="text" maxlength="4" title="뒷자리 전화번호"/>
+                    </td>
+                    </tr>
+                    <tr class="bottom">
+                    <th scope="row">
+                        <label for="mail"><img src="images/bul_star_red.png" alt="필수입력"/> 이메일</label>
+                    </th>
+                    <td class="mail">
+                        <input type="text" id="mail"/> @ <input type="text" title="도메인 이름"/>
+                        <br/>이메일을 통해 답변해 드리오니 이메일 주소를 정확히 입력해 주세요.
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </fieldset>
+                <fieldset class="counsel">
+                    <legend class="blind">상담내용</legend>
+                    <h3>상담내용</h3>
+                    <table summary="상담유형과 상담내용 입력">
+                    <caption class="blind">상담내용</caption>
+                    <tbody>
+                    <tr class="top">
+                    <th scope="row">
+                        <span><img src="images/bul_star_red.png" alt="필수입력"/> 상담유형</span>
+                    </th>
+                    <td>
+                        <input type="radio" id="inquiry" name="type"/><label for="inquiry">문의</label>
+                        <input type="radio" id="suggest" name="type"/><label for="suggest">제안</label>
+                        <input type="radio" id="complain" name="type"/><label for="complain">불만</label>
+                        <input type="radio" id="etc" name="type"/><label for="etc">기타</label>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">
+                        <label for="title"><img src="images/bul_star_red.png" alt="필수입력"/> 제목</label>
+                    </th>
+                    <td>
+                        <input type="text" id="title" class="title"/>
+                    </td>
+                    </tr>
+                    <tr class="bottom">
+                    <td colspan="2" class="none">
+                        <label for="counselTA" class="blind">상담내용</label>
+                        <textarea name="counselTA" id="counselTA"></textarea>
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    <ul>
+                        <li><strong>대표전화</strong>: 02-6400-0114</li>
+                        <li>사항은 필수 입력 사항입니다. 반드시 기입해주세요.</li>
+                    </ul>
+                    <button type="submit">확인</button>
+                </fieldset>
+            </form>
+        </div>
+        <!--//content-->
+    </div>
+    <!--//container-->
+    
+    <!--footer-->
+    <? include "footer.html"; ?>
+    <!--//footer-->
+    <hr/>
+</div>
+<!--//wrap-->
+</body>
+</html>

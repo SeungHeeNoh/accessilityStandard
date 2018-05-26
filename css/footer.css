@@ -1,0 +1,24 @@
+/* footer.css */
+
+
+/*footer*/
+/*footerInner*/
+.footerInner > ul:not(.siteLink) > li{float:left; padding-right:15px; margin-right:20px; margin-bottom: 13px; background: url(../images/bul_line2.gif) no-repeat 100% 50%; font-weight: bold;}
+.footerInner > ul > li a.pink{color:#e3002b;}
+
+.footerInner > ul.siteLink{float:right;}
+.footerInner > ul.siteLink > li{position:relative; float:left; width:124px;}
+.footerInner > ul.siteLink > li.first{margin-right:10px;}
+.footerInner > ul.siteLink > li > a{display:block; padding:0 27px 0 10px; 
+								background:url("../images/bg_sitemap_close.gif") no-repeat 100% 50%; border:1px solid #e2e2e2;
+								line-height:23px;}
+.footerInner > ul.siteLink > li.on > a{background-image:url("../images/bg_sitemap_open.gif");}
+.footerInner > ul.siteLink > li > ul{display:none; z-index:60; position:absolute; bottom:24px; left:0px; width:102px; padding:10px;
+										border:1px solid #e2e2e2; background:#fff;}
+.footerInner > ul.siteLink > li.on > ul{display:block;}
+.footerInner > ul.siteLink > li > ul > li > a{color:#666}
+
+/*p*/
+.footerInner p{clear:both; float:left; margin-top:20px;}
+.footerInner address{float:left; padding-top:35px; margin-left:100px;}
+.footerInner address span{display: block;}

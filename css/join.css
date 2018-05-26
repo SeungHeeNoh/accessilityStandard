@@ -1,0 +1,47 @@
+@import url(import.css);
+/*join.css*/
+/*sta*/
+/*staInner*/
+.sta{background: #c1c1c1 url(../images/bg_sub_visual3.gif) no-repeat 50% 100%;}
+.staInner h2{line-height: 130px; text-indent: 22px; font-size:27px; color:#fff;}
+
+/*container*/
+/*p.path*/
+p.path{margin:17px 0 53px; text-align: right;}
+
+/*.ulsnb*/
+ul.snb li{padding:19px 0 18px 20px; border-bottom:1px solid #d0d0d0;}
+ul.snb li strong{font-weight:bold;}
+ul.snb li a:hover, ul.snb li a:focus{font-weight:bold;}
+
+/*content*/
+/*h2*/
+#content h2{padding-bottom:16px; margin-bottom:50px; border-bottom:1px solid #e5e5e5; font-size:20px; font-weight: bold;}
+
+/*form*/
+h3{font-weight:bold; font-size:18px; margin-bottom:10px;}
+table{width:100%;}
+table tr th, tr td{height: 34px; border-bottom:1px solid #c4c4c4;}
+table th{width: 120px; padding-left:8px; background: #f9f9f9; line-height:40px; font-weight: bold;}
+table td{padding-left:10px;}
+table td input{height:26px;}
+table .top{border-top:2px solid #c4c4c4;}
+table .bottom{border-bottom: 2px solid #c4c4c4;}
+
+/*상담신청*/
+#name{width:280px;}
+.call input{width:134px;}
+.bottom th{line-height:59px;}
+.mail input{width:220px;}
+
+/*상담내용*/
+fieldset.counsel{margin-top:47px;}
+table td .title{width:500px;}
+table td.none{padding-left: 0;}
+table td textarea{overflow:auto; width:100%; height:223px; margin: 9px 0;}
+
+/*테이블 하단*/
+fieldset ul{float:left; margin-top: 10px;}
+fieldset ul li{background: url(../images/bul_star_gray.png) no-repeat 0 50%; text-indent:15px;}
+fieldset ul li strong{font-weight:bold;}
+fieldset button{float:right; width:60px; height: 33px; margin-top: 10px; border:1px solid #8e142b; background:#e3002b; color:#fff;}

@@ -1,0 +1,46 @@
+@import url(import.css);
+/*bbs.css*/
+/*sta*/
+/*staInner*/
+.sta{background: #949494 url(../images/bg_news.gif) no-repeat 50% 100%;}
+.staInner h2{padding-top:55px; text-indent: 22px; font-size:27px; color:#fff;}
+
+/*container*/
+/*p.path*/
+p.path{margin:17px 0 53px; text-align: right;}
+
+/*ul.snb*/
+ul.snb li a{display: block; padding:19px 0 18px 20px; border-bottom:1px solid  #d0d0d0; background: url(../images/bul.png) no-repeat 100% 50%;}
+ul.snb li a.now{font-weight:bold;}
+ul.snb li a.mid{border-top:1px solid #d0d0d0;}
+ul.snb li a:hover, .snb li a:focus{font-weight:bold;}
+ul.snb li ul{padding:19px 0;}
+ul.snb li ul li a{padding: 6px 20px; border-bottom: none; background: none; font-size:12px;}
+ul.snb li ul li a:focus{color:#e1002a}
+ul.snb li ul li strong{color:#e6002a;}
+ul.snb li ul li a:hover{color:#e6002a; font-weight: normal;}
+ul.nav02{display: none;}
+
+/*content*/
+/*h2*/
+#content h2{padding-bottom:16px; margin-bottom:50px; border-bottom:1px solid #e5e5e5; font-size:20px; font-weight: bold;}
+
+/*검색창*/
+#content form{text-align: right; margin-bottom: 10px;}
+.select_srch{width:74px; height:25px; border:1px solid #dee0dd; vertical-align:middle;}
+.srch{width:231px; height:25px; border:1px solid #dee0dd;}
+.btn_srch{width:58px; height:27px; border:none; background: #666762; vertical-align:middle; color:#fff;}
+
+/*게시판*/
+#content table{width:100%; margin-bottom:43px;}
+#content table th{padding:20px 0 14px; border-top: 2px solid #bababa; background: #f9f9f9; text-align: center;}
+#content th, td{border-bottom: 1px solid #cfcfcf;}
+#content .num{height:43px; padding-left:22px; padding-right:22px;}
+#content .title{padding-left:10px;}
+#content .page{margin-left:95px; text-align: center; margin-bottom:85px;}
+#content .page:after{content:""; display: block; clear:both;}
+#content .page a{float:left; display: block; width:28px; height:25px; margin-right:5px; border:1px solid #dbdbdb; font-size:9px; line-height: 25px; font-weight: bold;}
+#content .page a.now{border:1px solid #8e142b; background:#e3002b; color:#fff;}
+#content .page a.first{margin: 0;}
+#content a.prev{margin-left:4px; margin-right:14px;}
+#content a.next{margin-left:9px; margin-right:4px;}
